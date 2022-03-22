@@ -1,0 +1,23 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+.nav-item:hover{
+	transition: 0.2s;
+	background-color: rgb(50, 146, 38);
+	transform: scale(1.1);
+}
+.navbar-brand:hover{
+	transform: scale(1.3);
+	transition: 0.2s;
+	
+}
+.navbar-brand{
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.dropdown-item{
+	transition: 0.2s;
+	transform: scale(1.1)
+}
